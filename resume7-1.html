@@ -91,20 +91,22 @@
             <h2>Contact me</h2>
             <form form action="https://formsubmit.co/taylordavids997@gmail.com" method="POST">
                 <div class="form-example">
-                    <label for="sex"><b>Lets chat:</b></label>
-                    <label class="zoom-call" for="zoom-call">Zoom call</label><input type="radio" id="zoom-call" name="zoom-call" required>
-                    <label class="meet-up" for="meet-up">Meet up</label><input type="radio" id="meet-up" name="meet-up" required>
+                    <label><b>Lets chat about coding</b></label><br>
+                    <label for="lets-chat" aria-required="">What are you fimiliar with:</label>
+                    <input type="checkbox" value="" required><label>HTML</label>
+                    <input type="checkbox" value="" required><label>CSS</label>
+                    <input type="checkbox" value="" required><label>JAVASCRIPT</label>
                 </div>
                 <div class="email">
                     <label for="email"><b>Email:</b></label>
-                    <input class="email" type="valid" name="email" id="email" required>
+                    <input class="email" type="email" name="email" id="email" required>
                   </div>
                 <div class="topic">
-                    <label for="aboutme"><b>Topic:</b></label>
-                    <textarea id="story" name="story" rows="5" cols="33" optional>...</textarea >
+                    <label for="tell-me-more"><b>Tell me more:</b></label>
+                    <textarea class="tell-me-more" id="tell-me-more" name="tell-me-more" rows="5" cols="33"></textarea>
                 </div>
                 <div class="form-example">
-                    <input class="button" type="send" value="Send!">
+                    <button class="button" type="submit" target="blank">Send!</button>
                 </div>
             </form>
         </div>

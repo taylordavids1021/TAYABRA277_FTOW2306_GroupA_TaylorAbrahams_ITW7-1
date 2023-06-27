@@ -136,13 +136,18 @@ article {
     margin-bottom: 2rem;
 }
 /* ---------------------------------------- FORM STYLE ------------------------------------------------- */
+form {
+    font-size: 1.1rem;
+}
 textarea {
     display: block;
     box-sizing: border-box;
     width: 35%;
     padding: 0.5rem 0.75rem;
 }
-
+.tell-me-more:optional {
+    background-color: #d2e1dc;
+}
 .button {
     cursor: pointer;
     font-family: 'Roboto', sans-serif;
@@ -162,5 +167,5 @@ textarea {
     font-size: 1.2rem;
 }
 .topic, .email {
-    margin-top: 12px;
+    margin-top: 5px;
 }
