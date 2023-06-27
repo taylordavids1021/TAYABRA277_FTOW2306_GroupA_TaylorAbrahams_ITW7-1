@@ -1,11 +1,11 @@
-/* CSS STYLE SHEET*/
-/* BODY */
+/* ---------------------------------------- CSS STYLE SHEET ----------------------------------------*/
+/* ---------------------------------------- BODY ---------------------------------------- */
 body {
     background-color: rgb(216, 248, 255);
     font-family: 'Roboto', sans-serif;
     margin: auto;
 }
-/* HEADER */
+/*---------------------------------------- HEADER ----------------------------------------*/
 h1 {
     font-size: 5rem;
     text-align: left;
@@ -51,7 +51,7 @@ header p {
     float: left;
     margin-left: 4rem;
 }
-/* ASIDE */
+/* ---------------------------------------- ASIDE ----------------------------------------*/
 
 aside ul {
     display: flex;
@@ -77,7 +77,7 @@ aside a {
     text-underline-offset: none;
     font-weight: bolder;
 }
-/* a */
+/*---------------------------------------- a ----------------------------------------*/
 aside a:hover{
     color: white;
 
@@ -85,12 +85,12 @@ aside a:hover{
 a {
     color: #0f1e3d;
 }
-/*H2*/
+/* ---------------------------------------- H2 ----------------------------------------*/
 h2 {
     text-decoration: underline;
 }
 
-/* SECTION */
+/* ---------------------------------------- SECTION ----------------------------------------*/
 .section {
     border-style: solid;
     border-width: 1px;
@@ -98,7 +98,7 @@ h2 {
     margin-left: 5rem;
     padding: 2rem;
 }
-/*QUALIFICATION*/
+/* ---------------------------------------- QUALIFICATION ----------------------------------------*/
 .quali {
     border-style: solid;
     border-width: 1px;
@@ -107,7 +107,7 @@ h2 {
     padding: 2rem;
     margin-top: 2rem; 
 }
-/* ARTICLE */
+/*---------------------------------------- ARTICLE ----------------------------------------*/
 article {
     border-style: solid;
     border-width: 1px;
@@ -116,7 +116,7 @@ article {
     padding: 2rem;
     margin-top: 2rem; 
 }
-/* SKILLS */
+/* ---------------------------------------- SKILLS ---------------------------------------- */
 .skills {
     border-style: solid;
     border-width: 1px;
@@ -125,8 +125,8 @@ article {
     padding: 2rem;
     margin-top: 2rem; 
 }
-/* FOOTER */
-footer {
+/*---------------------------------------- FOOTER ---------------------------------------- */
+.social-media, .contact-me {
     border-style: solid;
     border-width: 1px;
     margin-right: 5rem;
@@ -134,4 +134,33 @@ footer {
     padding: 2rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
+}
+/* ---------------------------------------- FORM STYLE ------------------------------------------------- */
+textarea {
+    display: block;
+    box-sizing: border-box;
+    width: 35%;
+    padding: 0.5rem 0.75rem;
+}
+
+.button {
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    border: 0;
+    padding: 5px 0px;
+    line-height: 1.5;
+    width: 35%;
+    height: 40%;
+    margin-top: 10px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    border-radius: 10px;
+    background-color: rgba(0, 103, 220, 0.904);
+}
+.button:hover {
+    font-size: 1.2rem;
+}
+.topic, .email {
+    margin-top: 12px;
 }
