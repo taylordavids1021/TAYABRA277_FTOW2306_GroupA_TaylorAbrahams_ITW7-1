@@ -141,13 +141,12 @@ form {
 }
 textarea {
     display: block;
+    font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
     width: 35%;
     padding: 0.5rem 0.75rem;
 }
-.tell-me-more:optional {
-    background-color: #d2e1dc;
-}
+
 .button {
     cursor: pointer;
     font-family: 'Roboto', sans-serif;
